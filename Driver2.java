@@ -11,7 +11,7 @@ public class Driver2 {
 	public static void main(String[] args) throws IOException, ClassNotFoundException, InterruptedException {
 
 		Job j = new Job();
-		j.setJobName("Count Frequency");
+		j.setJobName("Frequency");
 		j.setJarByClass(Driver2.class);
 		j.setMapperClass(MyMapper2.class);
 		j.setReducerClass(MyReducer2.class);
